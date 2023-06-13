@@ -40,3 +40,8 @@ console.log(students)
 const admitted = students.filter((student) => {return student.grades > 70});
 
 console.log(admitted)
+
+const admittedid = students.filter((student) => {return student.grades > 70 && student.id > 120});
+
+console.log(admittedid)
+
