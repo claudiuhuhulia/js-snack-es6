@@ -45,3 +45,10 @@ const admittedid = students.filter((student) => {return student.grades > 70 && s
 
 console.log(admittedid)
 
+const uppercase = students.map((student) =>{
+    return student.name.toUpperCase()
+});
+
+
+console.log(uppercase)
+

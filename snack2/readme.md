@@ -11,5 +11,6 @@ Per preparare l'aula di un nuovo corso, dobbiamo svolgere una serie di operazion
 --
 
 - Creo l'array **students**.
-- utilizzando il metodo **filter** creo un nuovo array che contenga solo gli studenti con voto maggiore di 70.
--  
+- Utilizzando il metodo **filter** creo un nuovo array che contenga solo gli studenti con voto maggiore di 70.
+- Utilizzando lo stesso metodo e aggiungendo un **and** alla callbackfunction precedente inserisco solo gli studenti con voto maggiore di 70 e id maggiore di 120. 
+- Utilizzando il metodo **map** creo un nuovo array dove verranno inseriti i nomi degli studenti in maiuscolo usando la sintassi **toUpperCase()**.  
