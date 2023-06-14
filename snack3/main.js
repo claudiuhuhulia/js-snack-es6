@@ -37,4 +37,11 @@ const bikes = [
     },
 ]
 
-console.log(bikes)
+const weights = bikes.map(({weight}) => weight);
+
+
+
+lessWeight = Math.min(...weights);
+
+console.log(lessWeight) 
+
